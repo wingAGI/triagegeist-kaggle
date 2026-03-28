@@ -1,0 +1,6 @@
+{
+  "submission_path": "artifacts/submission.csv",
+  "model_path": "artifacts/models/ensemble.joblib",
+  "training_split": "full_train",
+  "structured_weight": 0.8
+}

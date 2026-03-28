@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Competition data must not be redistributed
+data/raw/
+data/*.zip
+
+# Local training outputs and bundles
+artifacts/models/
+submission_bundle/
+outputs/
+
+# Local environment
+.venv/
+venv/

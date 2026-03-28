@@ -1,0 +1,237 @@
+Triagegeist
+Predict emergency severity and optimize triage decisions with AI, powered by clinical data from the Laitinen-Fredriksson Foundation.
+
+
+Triagegeist
+
+Join Hackathon
+Overview
+Description
+Every minute counts in the emergency department. Across the world, emergency physicians and nurses make rapid, high-stakes triage decisions under extreme cognitive load, with incomplete information, and in environments that are chronically understaffed. Errors in triage severity scoring are not abstractions: they lead to delayed care, adverse outcomes, and preventable deaths.
+
+The Laitinen-Fredriksson Foundation is a Finnish medical research foundation dedicated to advancing clinical decision support in acute and emergency medicine. Through Triagegeist, we invite data scientists, clinicians, and AI practitioners to tackle one of the most consequential problems in modern healthcare: can AI meaningfully support triage decisions in the emergency department?
+
+The Challenge
+Build an AI-powered tool or analytical system that assists clinicians in emergency triage. Your solution must address a specific, well-defined problem within the triage workflow. Examples include but are not limited to:
+
+A model that predicts triage acuity level (e.g. ESI, MTS, or equivalent) from structured patient intake data
+A natural language processing system that extracts and interprets chief complaint text to flag high-risk presentations
+A decision support interface that surfaces deterioration risk for patients already in the waiting room
+An analytical notebook that surfaces systematic triage bias patterns in a provided or public dataset
+You are not required to build a full clinical application. A rigorous, well-documented Kaggle Notebook with a working proof-of-concept model and a thorough writeup is a complete and valid submission.
+
+What You Will Build
+Each team must submit:
+
+A Kaggle Notebook containing your model, analysis, or prototype. The notebook must run end-to-end without errors and be made public at submission time.
+A Project Writeup on Kaggle describing your approach, clinical motivation, methodology, and findings.
+Why This Matters
+Emergency triage systems in use today were designed decades ago and rely almost entirely on unaided human judgment. AI has the potential to reduce variability, flag overlooked risk, and extend the capacity of overburdened clinical teams. The Laitinen-Fredriksson Foundation will use insights from this competition to inform ongoing research programs and potential clinical pilot studies in partnership with hospital networks in Northern Europe.
+
+About the Laitinen-Fredriksson Foundation
+The Laitinen-Fredriksson Foundation is a Helsinki-based independent research foundation established to fund and develop translational research in emergency and acute care medicine. The Foundation partners with academic medical centers, hospital systems, and technology organizations to bridge the gap between clinical need and data-driven innovation.
+
+Start
+
+a month ago
+Close
+25 days to go
+Description
+The Problem
+Every minute counts in the emergency department. Triage nurses and physicians make rapid, high-stakes severity assessments under extreme cognitive load, with incomplete information, and in environments that are chronically understaffed. Errors in triage scoring are not abstractions: they lead to delayed care, adverse outcomes, and preventable deaths.
+
+Established triage systems such as the Emergency Severity Index (ESI) and the Manchester Triage System (MTS) were designed decades ago and rely almost entirely on unaided human judgment. Inter-rater variability is well-documented. Systematic undertriage of certain patient populations is an active patient safety concern in the literature.
+
+Can AI meaningfully support triage decisions in the emergency department? That is the question Triagegeist is built to answer.
+
+The Challenge
+Build an AI-powered tool or analytical system that assists clinicians in emergency triage. Your solution must address a specific, well-defined problem within the triage workflow.
+
+Valid approaches include but are not limited to:
+
+A model that predicts triage acuity level from structured patient intake data (vitals, demographics, chief complaint)
+An NLP pipeline that extracts and interprets free-text chief complaint to flag high-risk presentations
+A decision support system that surfaces deterioration risk for patients already waiting
+A rigorous analytical notebook that identifies systematic triage bias patterns in a public or provided dataset
+You are not required to build a full clinical application. A well-documented Kaggle Notebook with a working proof-of-concept and a thorough writeup is a complete and valid submission.
+
+Data
+Participants are free to use any publicly available dataset relevant to emergency triage and acute care. Recommended starting points include:
+
+MIMIC-IV-ED — Emergency department data from Beth Israel Deaconess Medical Center, including triage notes, vitals, acuity scores, and outcomes. Available at physionet.org (credentialed access required).
+NHAMCS — National Hospital Ambulatory Medical Care Survey, publicly available from the CDC, covering ED visits across the United States.
+CTG / UCI datasets — Various physiological signal datasets available via the UCI Machine Learning Repository.
+All datasets used must be cited and described in your notebook. You must confirm that your use of any dataset complies with its terms of access.
+
+What to Submit
+Each team must submit two things:
+
+1. A Kaggle Notebook Your model, analysis, or prototype. The notebook must run end-to-end without errors and be set to public at submission time.
+
+2. A Project Writeup Submitted via the Writeups tab. Must follow the provided template and cover: clinical problem statement, methodology, results, limitations, and reproducibility notes.
+
+Prizes
+Place	Prize
+1st	$5,000
+2nd	$3,000
+3rd	$2,000
+Total	$10,000
+The Laitinen-Fredriksson Foundation reserves the right to withhold prizes if an insufficient number of submissions meet the minimum quality threshold defined in the evaluation rubric.
+
+About the Laitinen-Fredriksson Foundation
+The Laitinen-Fredriksson Foundation is a Helsinki-based independent research foundation dedicated to translational research in emergency and acute care medicine. The Foundation partners with academic medical centers, hospital systems, and technology organizations to bridge the gap between clinical need and data-driven innovation. Insights from Triagegeist will inform ongoing research programs and potential clinical pilot studies in partnership with hospital networks in Northern Europe.
+
+Submission Requirements
+A valid submission must contain the following:
+
+Kaggle Writeup
+Cover Image (Media Gallery)
+Attached Public Notebook
+Attached Project Link
+Your final Submission must be made prior to the deadline. Any un-submitted or draft Writeups by the competition deadline will not be considered by the Judges.
+
+To create a new Writeup, click on the "New Writeup" button on the Project Writeups tab of the competition page. After you have saved your Writeup, you should see a "Submit" button in the top right corner.
+
+Note: If you attach a private Kaggle Resource to your public Kaggle Writeup, your private Resource will automatically be made public after the deadline.
+
+Kaggle Writeup The Kaggle Writeup serves as your project report. This should include a title, subtitle, and a detailed analysis of your submission. You must select a Track for your Writeup in order to submit.
+Your Writeup should not exceed 2,000 words. Submissions over this limit may be subject to penalty.
+
+The below assets must be attached to the Writeup to be eligible.
+
+a. Cover Image A cover image is required to submit your Writeup. Dimensions: 560 x 280 px.
+
+b. Public Notebook Your code should be submitted as a public notebook in the Project Files field. Your notebook should be publicly accessible and not require a login or paywall. If you use a private Kaggle Notebook, it will automatically be made public after the deadline.
+
+c. Public Project Link A URL to your working product, interactive demo, or public code repository (e.g. GitHub). It should be publicly accessible and not require a login or paywall. Detailed setup instructions must be included in the linked repository.
+
+Tracks and Awards
+Triagegeist: AI in Emergency Triage · $10,000
+Build an AI-powered tool or analytical system that addresses a specific, well-defined problem in emergency department triage. Valid approaches include acuity prediction models, NLP pipelines for chief complaint analysis, deterioration risk systems, or bias analysis notebooks. Submit a public Kaggle Notebook and a Project Writeup following the provided template.
+
+Track Awards
+
+First Place
+Awarded to the highest scoring submission as evaluated by the Laitinen-Fredriksson Foundation judging panel.
+
+$5,000
+
+Second Place
+Awarded to the second highest scoring submission as evaluated by the Laitinen-Fredriksson Foundation judging panel.
+
+$3,000
+
+Third Place
+Awarded to the third highest scoring submission as evaluated by the Laitinen-Fredriksson Foundation judging panel.
+
+$2,000
+Evaluation
+Judging Panel
+All submissions will be evaluated by a panel of at least three judges with combined expertise in emergency medicine, clinical AI, and data science. Judges are designated by the Laitinen-Fredriksson Foundation.
+
+Submission Requirements
+The following are required for a submission to be considered eligible. Submissions missing any required element will not be scored.
+
+Requirement	Details
+Kaggle Notebook	Must run end-to-end without errors. Must be set to public before the submission deadline.
+Project Writeup	Submitted via the Kaggle Writeup tab. Must include all sections of the Writeup Template.
+Clinical Problem Statement	The writeup must clearly define the specific triage problem being addressed.
+Data Disclosure	All datasets used (public or provided) must be cited and described in the notebook.
+Scoring Rubric (100 points total)
+1. Clinical Relevance (25 points)
+Does the submission address a real and meaningful problem in emergency triage? Is the problem statement grounded in clinical reality? Would a practicing emergency physician find this work credible and useful?
+
+Score	Description
+21-25	Problem is sharply defined, clinically motivated, and directly relevant to triage workflows. The clinical context is explained with accuracy and depth.
+14-20	Problem is relevant but motivation is partially developed or clinical grounding is surface-level.
+7-13	Problem relates broadly to emergency medicine but triage relevance is unclear or weakly argued.
+0-6	Problem has negligible clinical relevance or clinical context is absent.
+2. Technical Quality (30 points)
+Is the AI or analytical approach sound? Is the methodology appropriate for the problem? Is the code clean, reproducible, and well-structured?
+
+Score	Description
+25-30	Methodology is rigorous and appropriate. Code is reproducible, clean, and well-commented. Modeling choices are justified. Evaluation is thorough and honest about limitations.
+17-24	Methodology is reasonable with minor gaps. Code runs correctly. Some justification for choices is provided.
+9-16	Methodology has notable weaknesses or the notebook has errors. Limited justification provided.
+0-8	Methodology is flawed, code does not run, or approach is not appropriate for the problem.
+3. Documentation and Writeup Quality (20 points)
+Is the writeup clear, complete, and well-structured? Could a clinician or data scientist reproduce or build on this work from the writeup alone?
+
+Score	Description
+17-20	Writeup is thorough, clearly written, and follows the template. Methodology, findings, and limitations are all addressed. Reproducibility is fully supported.
+11-16	Writeup covers most required sections with adequate clarity. Some gaps in explanation or structure.
+5-10	Writeup is incomplete, unclear, or missing key sections.
+0-4	Writeup is absent or provides insufficient information to evaluate the work.
+4. Insight and Findings (15 points)
+Does the submission produce meaningful, interpretable findings? Are results communicated honestly, including failure modes and uncertainties?
+
+Score	Description
+13-15	Findings are meaningful, clearly communicated, and appropriately caveated. Results are interpreted in clinical context.
+8-12	Findings are reported but interpretation is limited or not connected to clinical implications.
+3-7	Findings are superficial or results are overclaimed without appropriate uncertainty.
+0-2	No meaningful findings are presented.
+5. Novelty and Impact Potential (10 points)
+Does the submission bring a fresh perspective, an underexplored dataset, or an innovative framing of the problem? Could this work plausibly inform real clinical or research practice?
+
+Score	Description
+9-10	Approach is genuinely novel or tackles a meaningfully underexplored aspect of triage AI. Impact pathway is clearly articulated.
+6-8	Some novel elements present. Impact is plausible but not deeply argued.
+3-5	Largely follows established approaches with limited differentiation.
+0-2	No novelty evident. Impact pathway is absent or implausible.
+Scoring Summary
+Criterion	Points
+Clinical Relevance	25
+Technical Quality	30
+Documentation and Writeup Quality	20
+Insight and Findings	15
+Novelty and Impact Potential	10
+Total	100
+Judging Process
+Evaluation will proceed in three rounds:
+
+Round 1 - Eligibility screening (1-2 judges): All submissions are reviewed against the required elements checklist. Ineligible submissions are removed from consideration.
+
+Round 2 - Detailed scoring (full panel): Each eligible submission is independently scored by at least two judges using the rubric above. Scores are normalized across judges to reduce variance.
+
+Round 3 - Final deliberation (full panel): The top submissions are reviewed collectively. Final rankings are determined by consensus discussion.
+
+The Laitinen-Fredriksson Foundation reserves the right to withhold prizes if an insufficient number of submissions meet the minimum quality threshold.
+
+Judges
+Olaf Yunus Laitinen Imanov
+Data Science Specialist in Proteomics, Technical University of Denmark
+OzanM.
+Data Scienist
+Kutluk Atalay
+Data Scientist
+S. Bürde DÜLGER
+Student
+Citation
+Olaf Yunus Laitinen Imanov (2026). Triagegeist. https://kaggle.com/competitions/triagegeist, 2026. Kaggle.
+
+
+Cite
+Competition Host
+Olaf Yunus Laitinen Imanov
+
+Prizes & Awards
+$10,000
+
+Does not award Points or Medals
+
+Participation
+449 Entrants
+
+33 Participants
+
+32 Teams
+
+33 Submissions
+
+Tags
+Health
+Medicine
+Classification
+Tabular
+NLP
+Table of Contents
