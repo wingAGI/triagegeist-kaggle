@@ -13,15 +13,17 @@
 
 ## Still Needs An External Action
 
-- A public project link
+- Kaggle-side upload and final submit click
 
-The competition requires a public project link in the Kaggle writeup. The local workspace is ready, but publishing that link still requires an external destination such as a public GitHub repository or another public page.
+Public project link:
+
+- `https://github.com/wingAGI/triagegeist-kaggle`
 
 ## Recommended Submit Order
 
-1. Review `docs/WRITEUP_DRAFT.md` and tighten wording if needed.
+1. Use `docs/WRITEUP_FINAL.md` as the Kaggle writeup base text.
 2. Upload `notebooks/triagegeist_kaggle_ready.ipynb` to Kaggle and verify it runs.
 3. Upload `assets/cover_v1.png` as the writeup cover image.
-4. Attach the notebook and paste the public project link.
+4. Attach the notebook and paste `https://github.com/wingAGI/triagegeist-kaggle` as the public project link.
 5. Review `docs/SUBMISSION_CHECKLIST.md`.
 6. Submit once everything is attached and public.
